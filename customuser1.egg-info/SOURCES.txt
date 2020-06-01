@@ -1,0 +1,12 @@
+README.md
+setup.py
+customuser1/__init__.py
+customuser1/asgi.py
+customuser1/settings.py
+customuser1/urls.py
+customuser1/wsgi.py
+customuser1.egg-info/PKG-INFO
+customuser1.egg-info/SOURCES.txt
+customuser1.egg-info/dependency_links.txt
+customuser1.egg-info/requires.txt
+customuser1.egg-info/top_level.txt

@@ -1,6 +1,11 @@
 from django.shortcuts import render
-from django.views.generic import TemplateView
+from users.models import CustomUser
 
 # Create your views here.
-class HomePageView(TemplateView):
-    template_name = 'home.html'
+def home_view(request):
+    context = {}
+
+    users = CustomUser.objects.all()
+    context['users'] = users
+
+    return render(request, 'home.html', context)
